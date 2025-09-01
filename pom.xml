@@ -62,20 +62,20 @@
                             <rules>
                                 <requireFilesExist>
                                     <files>
-                                        <file>${project.basedir}/src/main/resources/101mb.txt</file>
+                                        <file>${project.basedir}/src/main/resources/101mb.txtt</file>
                                     </files>
                                 </requireFilesExist>
 
                                 <requireFilesSize>
                                     <files>
-                                        <file>${project.basedir}/src/main/resources/101mb.txt</file>
+                                        <file>${project.basedir}/src/main/resources/101mb.txtt</file>
                                     </files>
                                     <minsize>106193058</minsize>
                                     <maxsize>106199058</maxsize>
                                 </requireFilesSize>
 
                                 <requireFileChecksum>
-                                    <file>${project.basedir}/src/main/resources/101mb.txt</file>
+                                    <file>${project.basedir}/src/main/resources/101mb.txtt</file>
                                     <checksum>715e3e6a0f69b8974c6181335fc089a48546381f6f4152cb95532d6cc7ae0414</checksum>
                                     <type>sha256</type>
                                 </requireFileChecksum>
